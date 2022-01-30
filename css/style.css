@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.9;
+}
+
+/*============ All common css end  ============*/
+/*========= Menu part start here  =========*/
+.navbar{
+    background: #000;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    padding-right: 0px;
+    padding-left: 32px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #28b8d8;
+}
+/*========= Menu part end here  =========*/
+/* Banner part start here  */
+.banner_img{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.banner_img_overlay{
+    background: rgba(0, 0, 0, 0.2);
+    padding-top: 330px;
+    padding-bottom: 250px;
+}
+.banner_text h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.banner_text h4{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.banner_text p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+}
+/* Banner part end here  */
+/* Services part start here  */
+#services{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.service_heading h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #444;
+}
+.service_heading p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.service_heading h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #444;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.service_item{
+    border: 1px solid #e3e3e3;
+    padding: 15px 15px 20px;
+}
+.service_item .service_item_text h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #444;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.service_item .service_item_text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+}
+/*========== Services part end here  ==========*/
+/* Instagram part start here  */
+#instagram{
+    background: #2c2c2c;
+    padding: 35px 0px 40px;
+}
+.insta_heading h5{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #d5d5d5;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 35px;
+}
+.insta_heading h5:before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: -115px;
+    height: 1px;
+    width: 100px;
+    background: #535353;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.insta_heading h5:after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: -115px;
+    height: 1px;
+    width: 100px;
+    background: #535353;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.insta_btn a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #a6a6a6;
+    border: 1px solid #797979;
+    padding: 16px 20px;
+    margin-top: 45px;
+}
+.insta_btn a span{
+    font-size: 16px;
+    padding-right: 2px;
+}
+/*========== Instagram part end here ========== */
+/* Journal part start here  */
+#journal{
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.journal_heading h5{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #444;
+    text-transform: uppercase;
+}
+/* Journal part end here  */
+
+
+
+/* font-family: 'Roboto', sans-serif;
+
+font-family: 'Roboto Condensed', sans-serif;
+
+font-family: 'Roboto Slab', serif; */
