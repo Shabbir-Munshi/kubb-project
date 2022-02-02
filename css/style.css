@@ -449,7 +449,7 @@ html{
 /* Footer bottom part start here  */
 #footer_bottom{
     background: #333333;
-    padding: 35px;
+    padding: 35px 0px;
 }
 .footer_bottom_text p{
     font-family: 'Roboto', sans-serif;

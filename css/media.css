@@ -1,0 +1,210 @@
+/*  Extra large devices  */
+@media (min-width: 1200px) { 
+    hr{
+        display: none;
+    }
+ }
+/* Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+/* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+/* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) { }
+ /*======================== Extra small devices  ========================*/
+@media (max-width: 575.98px) { 
+    /*====== Menu part start here ====== */
+    .navbar{
+        background: #000;
+    }
+    .navbar-toggler {
+        font-size: 16px;
+        color: #28b8d8;
+        outline: 0 !important;
+        border: 2px solid #28b8d8;
+        padding: 4px 8px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 13px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: relative;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:after{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 1px;
+        left: 0;
+        bottom: 0;
+        background: #f5f5f5;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::before{
+        position: absolute;
+        content: '';
+        width: 0%;
+        height: 1px;
+        background: #28b8d8;
+        left: 0;
+        bottom: 0;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover::before{
+        width: 100%;
+        z-index: 100;   
+    }
+    /*===== Banner part start here ===== */
+    .banner_img_overlay {
+        padding-top: 130px;
+        padding-bottom: 80px;
+    }
+    .banner_text h3 {
+        font-size: 30px;
+    }
+    .banner_text h4 {
+        font-size: 24px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    /*====== Services part start here ====== */
+    #services {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .service_heading h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .service_heading p {
+        font-size: 11px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        line-height: 22px;
+    }
+    .service_heading h4 {
+        font-size: 16px;
+    }
+    .service_item .service_item_text h3 {
+        font-size: 16px;
+        padding-top: 15px;
+    }
+    .service_item .service_item_text p {
+        font-size: 12px;
+        width: 260px;
+        margin: 0 auto;
+    }
+    /*======= Instagram part start here ======= */
+    #instagram {
+        padding: 18px 0px 20px;
+    }
+    .insta_heading h5 {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .insta_heading h5::before {
+        left: -75px;
+        width: 65px;
+    }
+    .insta_heading h5::after {
+        right: -75px;
+        width: 65px;
+    }
+    .insta_btn a {
+        font-size: 12px;
+        padding: 5px 10px;
+        margin-top: 20px;
+    }
+    .insta_btn a span {
+        font-size: 13px;
+    }
+    /*======= Journal part start here ======= */
+    #journal {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    .journal_heading h5 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .journal_heading h5::before {
+        left: -75px;
+        width: 65px;
+    }
+    .journal_heading h5::after {
+        right: -75px;
+        width: 65px;
+    }
+    .journal_item p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #666;
+        padding: 15px 20px 10px;
+        line-height: 22px;
+        text-align: left;
+    }
+    /*=====  About and services part start here ===== */
+    #about_and_service {
+        padding-bottom: 15px;
+    }
+    /*===== Little about me part start here ===== */
+    .about_me_heading h3 {
+        font-size: 16px;
+    }
+    .about_me_detail .para1 {
+        font-size: 15px;
+        padding-top: 15px;
+    }
+    .about_me_detail .para2 {
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+    /*======= MY services part start here ======= */
+    .my_service_item_txt h3 {
+        text-align: center;
+        padding-top: 15px;
+    }
+    .my_service_item_txt p {
+        font-size: 12px;
+        text-align: center;
+    }
+    /*======= Footer part start here ======= */
+    #footer {
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+    .footer_item p {
+        font-size: 13px;
+    }
+    .footer_item .icon {
+        font-size: 16px;
+        text-align: center;
+    }
+    .footer_item .para_one {
+        padding-bottom: 10px;
+    }
+    hr{
+        background: #f5f5f5;
+    }
+    .item_two p {
+        padding-bottom: 10px;
+        line-height: 22px;
+    }
+    .item_three p {
+        padding-bottom: 10px;
+    }
+    .item_four p {
+        padding-bottom: 15px;
+    }
+    /*===== Footer bottom part start here ===== */
+    #footer_bottom {
+        padding: 15px 0px;
+    }
+    .footer_bottom_text p {
+        font-size: 12px;
+    }
+
+ }
