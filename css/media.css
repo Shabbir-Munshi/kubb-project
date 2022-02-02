@@ -32,13 +32,6 @@
     .navbar{
         background: #000;
     }
-    .navbar-toggler {
-        font-size: 16px;
-        color: #28b8d8;
-        outline: 0 !important;
-        border: 2px solid #28b8d8;
-        padding: 4px 8px;
-    }
     .navbar-expand-lg .navbar-nav .nav-link {
         font-size: 13px;
         padding-top: 10px;
@@ -151,13 +144,6 @@
      /*====== Menu part start here ====== */
      .navbar{
         background: #000;
-    }
-    .navbar-toggler {
-        font-size: 16px;
-        color: #28b8d8;
-        outline: 0 !important;
-        border: 2px solid #28b8d8;
-        padding: 4px 8px;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         font-size: 13px;
@@ -290,13 +276,6 @@
     /*====== Menu part start here ====== */
     .navbar{
         background: #000;
-    }
-    .navbar-toggler {
-        font-size: 16px;
-        color: #28b8d8;
-        outline: 0 !important;
-        border: 2px solid #28b8d8;
-        padding: 4px 8px;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         font-size: 13px;
