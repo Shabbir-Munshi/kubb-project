@@ -24,6 +24,7 @@ body{
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 /*============ All common css end  ============*/
 /*========= Menu part start here  =========*/
